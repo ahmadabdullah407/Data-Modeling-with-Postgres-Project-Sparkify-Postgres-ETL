@@ -32,12 +32,12 @@ log_data/2018/11/2018-11-13-events.json
 ```
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
-![](https://video.udacity-data.com/topher/2019/February/5c6c15e9_log-data/log-data.png)
+![](https://raw.githubusercontent.com/ahmadabdullah407/Data-Modeling-with-Postgres-Project-Sparkify-Postgres-ETL/main/log-data.png)
 ## Schema for Song Play Analysis
 
 Using the song and log datasets, I created a star schema optimized for queries on song play analysis.This star schema has 1  _fact_  table (songplays), and 4  _dimension_  tables (users, songs, artists, time). 
 
-[![](https://github.com/kenhanscombe/project-postgres/raw/master/sparkify_erd.png?raw=true)](https://github.com/kenhanscombe/project-postgres/blob/master/sparkify_erd.png?raw=true)
+![](https://raw.githubusercontent.com/ahmadabdullah407/Data-Modeling-with-Postgres-Project-Sparkify-Postgres-ETL/main/sparkify_erd.png)
 ## Project Template:
 Files used on the project:
 
